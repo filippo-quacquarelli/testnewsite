@@ -96,7 +96,7 @@
 
         function onPlayVideo() {
             
-            const texture = PIXI.Texture.from('./bubble-hq.mp4');
+            const texture = PIXI.Texture.from('https://filippoquacquarelli.it/images/bubble-hq-finale.mp4');
 
             texture.baseTexture.resource.source.loop = true;
             
@@ -117,7 +117,7 @@
             .endFill();
         app.stage.addChild(cursor);
 
-        brush = new PIXI.Sprite.from("./cloudmove.png");
+        brush = new PIXI.Sprite.from("https://filippoquacquarelli.it/images/cloudmove.png");
         brush.anchor.set(0.5);
         brush.width = 500;
         brush.height = 500;
